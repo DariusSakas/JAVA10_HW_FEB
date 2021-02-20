@@ -61,11 +61,9 @@ public class Zodynas {
 
         for (Map.Entry<String, String> stringStringEntry : zodynas.entrySet()) {
             if (inputValue.equalsIgnoreCase(stringStringEntry.getKey())) {
-                if(inputValue.isEmpty())
-                    System.out.println("Tokio zodzio nera");
-                else
-                    System.out.println(stringStringEntry.getValue());
-            }
+                System.out.println(stringStringEntry.getValue());
+            }else
+                System.out.println("Tokio zodzio nera");
 
         }
     }
