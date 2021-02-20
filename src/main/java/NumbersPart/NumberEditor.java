@@ -11,6 +11,7 @@ public class NumberEditor {
 
     Scanner scanner = new Scanner(System.in);
     Scanner intScannaer = new Scanner(System.in);
+
     Integer[] threeNumArray = new Integer[3];
 
     void numberEditorMenu() {
